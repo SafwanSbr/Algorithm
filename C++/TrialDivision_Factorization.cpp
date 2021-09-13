@@ -1,3 +1,6 @@
+/*
+  Time Complexity = O(sqrt(n));
+ */
 #include<iostream>
 #include<vector>
 using namespace std;
