@@ -1,3 +1,4 @@
+//Related Prblem - https://codeforces.com/gym/103317/problem/D
 #include<iostream>
 #include<vector>
 #include<queue>
@@ -13,6 +14,7 @@ using namespace std;
 vector <int> adj[N];// array of vector // Adjacency List
 int vis[N]; // Visited Array
 
+//void BFS( int node, vector <int> adj[], vector <int> &vis)// For user input
 void BFS (int node){
     queue <int> q;
     q.push(node);
@@ -49,6 +51,7 @@ int main()
     }
 }
 /*
+Graph Making website - https://csacademy.com/app/graph_editor/
   Input-
 11
 0 5
@@ -60,6 +63,7 @@ int main()
 2 1
 2 3
 2 7
-4 6
+7 6
+1 2
 Output - 0 5 4 1 2 6 3 7
 */
