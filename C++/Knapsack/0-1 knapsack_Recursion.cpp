@@ -3,7 +3,7 @@
 
 #include<bits/stdc++.h>
 using namespace std;
-#define opetimize() ios_base::sync_with_stdio(0);//cin.tie(0);cout.tie(0);// Last part used to print all at the end
+#define opetimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);// Last part used to print all at the end
 #define int long long int
 
 int knapsack( int wt[], int val[], int n, int W)
